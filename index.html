@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moeda</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <input type="checkbox" name="#" id="toggle" class="toggle-btn">
+        <label for="toggle" class="toggle-label"></label>
+    </header>
+
+    <div class="container">
+        <h1>Conversor de Reais para <span>Dólares</span></h1>
+        <div>
+            <label for="reais">Quantidade de Reais:</label>
+            <input type="number" id="reais" placeholder="Digite o valor em Reais">
+        </div>
+        <button onclick="converter()">Converter</button>
+        <div id="resultado"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
